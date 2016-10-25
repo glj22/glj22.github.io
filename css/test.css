@@ -28,39 +28,17 @@ img {
 
 }
 
-navbar {
-    width: 100%;
-    background: #f0f0f0;
-    border: 1px solid #ccc;
-    border-right: none;
-}
+#navbar {
+	/*Add your CSS here!*/
+	
+	left:50%;
+	margin-left:-500px;
+	position: absolute;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	
 
-navbar ul {
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-navbar ul li {
-    list-style: none;
-    float: left;
-    text-align: center;
-    border-left: 1px solid #fff;
-    border-right: 1px solid #ccc;
-    width: 9.0909%; /* fallback for non-calc() browsers */
-    width: calc(100% / 11);
-    box-sizing: border-box;
-}
-
-navbar ul li:first-child {
-    border-left: none;
-}
-
-navbar ul li a {
-    display: block;
-    text-decoration: none;
-    color: #616161;
-    padding: 10px 0;
+	
 }
 
 #header {

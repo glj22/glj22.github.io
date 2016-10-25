@@ -30,12 +30,12 @@ background-attachment: scroll;
   }
   ul.topnav.responsive li a {
     display: block;
-    text-align: left;
+    text-align: centre;
   }
 }
 h1 {
 	
-	color: #gggggg;
+	color: #FFFFFF;
 }
 h2 {
 	font-family: Verdana;

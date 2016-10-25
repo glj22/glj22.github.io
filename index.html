@@ -61,5 +61,21 @@
 				<p>Send me an <span class="bold">e-mail</span>!</p>
 			</div>
 		</div>
+					<p>This example uses the HTML DOM to assign an "onmouseover" and "onmouseout" event to a h1 element.</p>
+
+<h1 id="demo">Mouse over me</h1>
+
+<script>
+document.getElementById("demo").onmouseover = function() {mouseOver()};
+document.getElementById("demo").onmouseout = function() {mouseOut()};
+
+function mouseOver() {
+    document.getElementById("demo").style.color = "red";
+}
+
+function mouseOut() {
+    document.getElementById("demo").style.color = "black";
+}
+</script>
 	</body>
 </html>

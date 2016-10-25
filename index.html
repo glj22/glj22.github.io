@@ -81,4 +81,19 @@ function mouseOut() {
 }
 </script>
 	</body>
+							 
+							 *  dropdown.js
+  *  
+  *  Allows you to easily create a dropdown menu item. Simply create a link
+  *  with a class of "dropdown" that references the ID of the list that you
+  *  would like to use as a dropdown menu.
+  *  
+  *  
+  *    <a class="dropdown" href="#dropdown">Menu</a>
+  *  
+     var matches = this.element.href.match(/\#(.+)$/);
+     this.menu = (matches ? Dropdown.Menu.findOrCreate(matches[1]) : new Dropdown.AjaxMenu(this.element.href));
+     $$('a.dropdown').each(function(drop){ drop.removeClassName('selected') });
+     c = $H(Dropdown.Menu.controls);
+     clicked = this;
 </html>

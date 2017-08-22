@@ -90,8 +90,8 @@ p {
 table {
 	border: #000000 1px solid;
 	background-color: #000000;
-	float: left;
-	margin-left: 10px;
+	float: right;
+	margin-right: 10px;
 }
 
 	/*border-bottom-right-radius: 15px;

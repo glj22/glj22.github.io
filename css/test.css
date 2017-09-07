@@ -30,10 +30,13 @@ img {
 #navbar {
 	/*Add your CSS here!*/
 	
-	margin-left:-5px;
-	position: fixed;
-	background-color: #333333;
-	}
+	left:50%;
+	margin-left:-500px;
+	position: absolute;
+	margin-top: 20px;
+	background-color: #FFFFFF;
+	
+}
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #FFFFFF;

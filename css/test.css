@@ -31,7 +31,7 @@ img {
 	/*Add your CSS here!*/
 	
 	margin-left:-5px;
-	position: relative;
+	position: fixed;
 	background-color: #333333;
 	}
 /* Change the link color to #111 (black) on hover */

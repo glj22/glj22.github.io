@@ -45,7 +45,7 @@ li a:hover {
 
 #header {
 	position: relative;
-	top: -500px;
+	top: -10px;
 	background-color: black;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
